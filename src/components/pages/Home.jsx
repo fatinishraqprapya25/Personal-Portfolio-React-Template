@@ -2,6 +2,7 @@ import Hero from "../home/Hero";
 import bgImage from "../../assets/hero-bg.jpeg"
 import Header from "../header";
 import Container from "../ui/Container";
+import Profile from "../home/Profile";
 
 export default function Home() {
     return (
@@ -21,6 +22,8 @@ export default function Home() {
                 </Container>
 
             </main>
+
+            <Profile />
         </>
     );
 }
