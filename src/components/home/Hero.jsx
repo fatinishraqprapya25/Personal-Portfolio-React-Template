@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section className="text-center text-white py-20 md:py-32 poppins">
             <Container>
-                <h1 className="text-[60px] leading-[30px] font-[100] mb-4 text-white/90">
+                <h1 className="text-[60px] leading-[30px] font-[100] mb-4 text-white/80">
                     Hello!
                 </h1>
 

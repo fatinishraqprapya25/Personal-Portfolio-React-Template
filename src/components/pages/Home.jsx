@@ -7,11 +7,11 @@ export default function Home() {
     return (
         <>
             <main
-                style={{ backgroundImage: `url(${bgImage})` }}
-                className="relative bg-cover bg-center h-screen home-hero pt-2"
+                style={{ backgroundImage: `url(${bgImage}) ` }}
+                className="relative bg-cover bg-center md:min-h-screen home-hero pt-2"
             >
-                {/* background black overlay */}
-                <div className="absolute inset-0 bg-black opacity-50"></div>
+
+                <div className="absolute inset-0 bg-black opacity-50 md:min-h-screen"></div>
 
                 <Container>
                     <Header />
