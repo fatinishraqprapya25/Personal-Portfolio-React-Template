@@ -2,10 +2,9 @@ import profile from "../../assets/profile.jpg"
 import Container from "../ui/Container";
 
 export default function Profile() {
-    // Defines the skill data with a value for the bar width (e.g., 90% for Python)
     const skills = [
         { name: "Python", level: "w-[90%]" },
-        { name: "ReactJS", level: "w-[85%]" }, // Renamed from JavaScript/React/Node JS to match image
+        { name: "ReactJS", level: "w-[85%]" },
         { name: "Laravel", level: "w-[80%]" },
         { name: "Vue", level: "w-[95%]" },
     ];
