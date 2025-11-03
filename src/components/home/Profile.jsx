@@ -10,33 +10,33 @@ export default function Profile() {
     ];
 
     return (
-        <section className="bg-[#2b1ec2] poppins text-white py-40 relative">
-            <div className="h-50 w-[1px] bg-gray-300 absolute left-[50%] top-[-16%]"></div>
+        <section className="bg-[#2b1ec2] poppins text-white md:py-40 py-10 relative">
+            <div className="h-50 w-[1px] bg-gray-300 hidden absolute left-[50%] top-[-16%] md:block"></div>
             <Container>
-                <div className="flex justify-center items-center">
+                <div className="md:flex justify-center items-center">
 
-                    <div className="w-1/3 pr-10">
+                    <div className="md:w-1/3 pr-10 md:px-0 px-10">
                         <div className="text-4xl font-bold leading-[40px] mb-6">
                             <h2>10 Years </h2>
                             <h2>Experience On</h2>
                             <h2>Web </h2>
                             <h2>Development.</h2>
                         </div>
-                        <p className="text-sm">
+                        <p className="text-sm pb-12">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                         </p>
                     </div>
 
-                    <div className="w-1/3 flex justify-center relative z-10">
+                    <div className="md:w-1/3 flex justify-center relative z-10 md:px-0 px-10">
                         <img
                             src={profile}
                             alt="Profile of a Web Developer"
-                            className="h-120 w-75 object-cover object-top opacity-100"
+                            className="md:h-120 md:w-75  w-full h-auto object-cover object-top opacity-100"
                         />
                     </div>
 
 
-                    <div className="w-1/3 pl-10">
+                    <div className="md:w-1/3 md:pl-10 px-10 md:px-0 mt-10">
                         {skills.map((skill, index) => (
                             <div key={index} className="mb-8">
                                 <p className="font-semibold mb-2">{skill.name}</p>
