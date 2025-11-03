@@ -57,9 +57,9 @@ export default function Profile() {
 
                 </div>
 
-                <div className="flex mt-25">
+                <div className="md:flex md:flex-row flex flex-col-reverse mt-25">
                     {/* experience left */}
-                    <div className="lg:w-1/2 pr-0 lg:pr-8 relative text-right">
+                    <div className="lg:w-1/2 pr-0 lg:pr-8 relative text-right md:pr-8">
 
                         <ProfileExperience heading="2010 - 2014 ABC Company" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
@@ -69,7 +69,7 @@ export default function Profile() {
                     </div>
 
 
-                    <div className="lg:w-1/2 pt-8 lg:pt-0 lg:pl-10 border-t-2 lg:border-t-0 lg:border-l-2 border-white lg:py-20 flex items-center">
+                    <div className="md:w-1/2 pt-8 lg:pt-0 md:pl-10 border-t-2 md:border-t-0 md:border-l-2 border-white lg:py-20 flex items-center">
 
                         <div>
                             <h2 className="text-3xl font-semibold mb-3 mt-0">
