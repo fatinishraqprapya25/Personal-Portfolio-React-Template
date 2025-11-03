@@ -19,12 +19,6 @@ export default function Portfolio() {
             </div>
 
         </Container>
-
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        
     </section>
 }

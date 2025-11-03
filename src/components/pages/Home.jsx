@@ -4,6 +4,7 @@ import Header from "../header";
 import Container from "../ui/Container";
 import Profile from "../home/Profile";
 import Portfolio from "../home/Portfolio";
+import Services from "../home/Services";
 
 export default function Home() {
     return (
@@ -26,6 +27,7 @@ export default function Home() {
 
             <Profile />
             <Portfolio />
+            <Services />
         </>
     );
 }
