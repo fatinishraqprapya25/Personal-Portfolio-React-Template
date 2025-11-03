@@ -18,7 +18,7 @@ export default function Profile() {
             <Container>
                 <div className="md:flex justify-center items-center">
 
-                    <div className="md:w-1/3 pr-10 md:px-0 px-10">
+                    <div className="md:w-1/3 pr-10">
                         <div className="text-4xl font-bold leading-[40px] mb-6">
                             <h2>10 Years </h2>
                             <h2>Experience On</h2>
@@ -30,7 +30,7 @@ export default function Profile() {
                         </p>
                     </div>
 
-                    <div className="md:w-1/3 flex justify-center relative z-10 md:px-0 px-10">
+                    <div className="md:w-1/3 flex justify-center relative z-10">
                         <img
                             src={profile}
                             alt="Profile of a Web Developer"
@@ -39,7 +39,7 @@ export default function Profile() {
                     </div>
 
 
-                    <div className="md:w-1/3 md:pl-10 px-10 md:px-0 mt-10">
+                    <div className="md:w-1/3 md:pl-10 md:px-0 mt-10">
                         {skills.map((skill, index) => (
                             <div key={index} className="mb-8">
                                 <p className="font-semibold mb-2">{skill.name}</p>
@@ -57,9 +57,9 @@ export default function Profile() {
 
                 </div>
 
-                <div className="md:flex md:flex-row flex flex-col-reverse mt-25">
+                <div className="md:flex md:flex-row flex flex-col-reverse md:mt-25">
                     {/* experience left */}
-                    <div className="lg:w-1/2 pr-0 lg:pr-8 relative text-right md:pr-8">
+                    <div className="lg:w-1/2 pr-0 lg:pr-8 relative md:text-right text-left md:pr-8 md:mt-0 mt-10">
 
                         <ProfileExperience heading="2010 - 2014 ABC Company" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
