@@ -2,6 +2,7 @@ import { Smartphone, Globe, PenTool, Monitor } from 'lucide-react';
 import image from "../../assets/service-bg.jpeg";
 import Container from '../ui/Container';
 import ServiceCard from './ServiceCard';
+import Button from '../ui/Buttons';
 
 const servicesData = [
     {
@@ -51,9 +52,10 @@ export default function Services() {
                     </div>
 
                     <div className="mt-20">
-                        <button className="px-10 py-4 bg-indigo-700 hover:bg-indigo-800 transition duration-300 text-lg font-medium rounded-md cursor-pointer shadow-xl shadow-indigo-700/50">
+                        <button className="px-8 py-3 bg-indigo-700 hover:bg-indigo-800 transition duration-300 text-lg font-medium rounded-md cursor-pointer shadow-xl shadow-indigo-700/50">
                             Hire Me!
                         </button>
+
                     </div>
                 </div>
             </Container>

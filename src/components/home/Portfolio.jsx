@@ -10,10 +10,10 @@ export default function Portfolio() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 space-y-4 space-x-5 mt-8">
                 <SinglePortfolio image={Image} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
-                <SinglePortfolio image={Image} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
-                <SinglePortfolio image={Image} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
-                <SinglePortfolio image={Image} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
-                <SinglePortfolio image={Image} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
+                <SinglePortfolio image={"https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-4.jpg"} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
+                <SinglePortfolio image={"https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-5.jpg"} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
+                <SinglePortfolio image={"https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-1.jpg"} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
+                <SinglePortfolio image={"https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-3.jpg"} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
                 <SinglePortfolio image={Image} heading="Social App" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit." />
 
             </div>

@@ -5,6 +5,7 @@ import Container from "../ui/Container";
 import Profile from "../home/Profile";
 import Portfolio from "../home/Portfolio";
 import Services from "../home/Services";
+import Blogs from "../home/Blogs";
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
             <Profile />
             <Portfolio />
             <Services />
+            <Blogs />
         </>
     );
 }
