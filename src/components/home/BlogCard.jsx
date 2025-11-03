@@ -1,8 +1,14 @@
 import { Calendar, User, ArrowRight } from 'lucide-react';
 
 const BlogCard = ({ post }) => (
-    <div className="bg-gray-800 rounded-md transition duration-300 overflow-hidden text-left">
-        <img src={post.image} alt={post.title} className="w-full h-40 object-cover" />
+    <div className="bg-gray-800 rounded-md transition duration-300 overflow-hidden text-left shadow-xl group">
+        <div className="overflow-hidden">
+            <img
+                src={post.image}
+                alt={post.title}
+                className="w-full h-40 object-cover transform transition-transform duration-500 group-hover:scale-105"
+            />
+        </div>
         <div className="p-6">
             <div className="flex text-xs text-gray-400 mb-3 space-x-4">
                 <div className="flex items-center space-x-1">
@@ -20,7 +26,10 @@ const BlogCard = ({ post }) => (
             <p className="text-gray-300 text-sm mb-4 line-clamp-3">
                 {post.excerpt}
             </p>
-            <a href="#" className="flex items-center space-x-1 text-white duration-400 hover:text-indigo-100 font-medium text-sm hover:text-indigo-300">
+            <a
+                href="#"
+                className="flex items-center space-x-1 text-white duration-400 hover:text-indigo-100 font-medium text-sm hover:text-indigo-300"
+            >
                 <span>Read More</span>
                 <ArrowRight className="w-4 h-4 ml-1" />
             </a>

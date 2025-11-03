@@ -25,6 +25,27 @@ const blogData = [
         author: "Charlie Brown",
         image: "https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-2.jpg"
     },
+    {
+        title: "Future of Web Assembly",
+        excerpt: "WebAssembly is pushing browser performance limits. Explore how it's used today and its potential impact on next-generation web applications.",
+        date: "Oct 10, 2024",
+        author: "Charlie Brown",
+        image: "https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-2.jpg"
+    },
+    {
+        title: "Future of Web Assembly",
+        excerpt: "WebAssembly is pushing browser performance limits. Explore how it's used today and its potential impact on next-generation web applications.",
+        date: "Oct 10, 2024",
+        author: "Charlie Brown",
+        image: "https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-2.jpg"
+    },
+    {
+        title: "Future of Web Assembly",
+        excerpt: "WebAssembly is pushing browser performance limits. Explore how it's used today and its potential impact on next-generation web applications.",
+        date: "Oct 10, 2024",
+        author: "Charlie Brown",
+        image: "https://kits.focuxtheme.com/indev/wp-content/uploads/sites/3/2021/11/work-2.jpg"
+    }
 ];
 
 export default function Blogs() {
@@ -38,7 +59,7 @@ export default function Blogs() {
                 <div className="relative z-10 text-white text-center px-4">
                     <SectionHeader title="Featured Blogs" content="Thoughts, tutorials, and insights on development." />
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-15">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-15">
                         {blogData.map((post, index) => (
                             <BlogCard key={index} post={post} />
                         ))}
