@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import profile from "../../assets/profile.jpg"
 import Container from "../ui/Container";
 import ProfileExperience from "./ProfileExperience";
+import { Facebook, Twitter, Youtube } from "lucide-react";
 
 export default function Profile() {
     const skills = [
@@ -56,8 +58,8 @@ export default function Profile() {
                 </div>
 
                 <div className="flex mt-25">
-
-                    <div className="lg:w-1/2 pr-0 lg:pr-12 relative text-right">
+                    {/* experience left */}
+                    <div className="lg:w-1/2 pr-0 lg:pr-8 relative text-right">
 
                         <ProfileExperience heading="2010 - 2014 ABC Company" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
@@ -66,23 +68,28 @@ export default function Profile() {
                         <ProfileExperience heading="2017 - Now Freelance" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
                     </div>
 
-                    <div className="lg:w-1/2 pt-8 lg:pt-0 lg:pl-12 border-t-2 lg:border-t-0 lg:border-l-2 border-white">
-                        <h2 className="text-4xl lg:text-5xl font-extrabold mb-6 mt-0">
-                            <span className="mr-2">☐</span>My Work Experience
-                        </h2>
-                        <p className="text-gray-300 text-sm mt-2 pr-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
-                        <div className="flex space-x-3">
-                            <a href="#" className="bg-blue-600 p-2 rounded-md hover:opacity-80 transition">
-                                <span className="text-white text-lg font-bold">f</span>
-                            </a>
-                            <a href="#" className="bg-sky-400 p-2 rounded-md hover:opacity-80 transition">
-                                <span className="text-white text-lg font-bold">t</span>
-                            </a>
-                            <a href="#" className="bg-red-600 p-2 rounded-md hover:opacity-80 transition">
-                                <span className="text-white text-lg font-bold">▶</span>
-                            </a>
+                    <div className="lg:w-1/2 pt-8 lg:pt-0 lg:pl-10 border-t-2 lg:border-t-0 lg:border-l-2 border-white lg:py-20 flex items-center">
+
+                        <div>
+                            <h2 className="text-3xl font-semibold mb-3 mt-0">
+                                <span className="mr-2">☐</span>My Work Experience
+                            </h2>
+                            <p className="text-gray-300 text-sm mt-0 pr-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                            <div className="flex space-x-2 mt-5">
+                                <Link className="bg-gray-700 px-2 py-2 rounded-md" to="facebook.com">
+                                    <Facebook size={17} className="text-sm text-white" />
+                                </Link>
+                                <Link className="bg-blue-600 px-2 py- rounded-sm flex justify-center items-center" to="facebook.com">
+                                    <Twitter size={17} className=" text-white" />
+                                </Link>
+                                <Link className="bg-red-700 px-2 flex justify-center items-center rounded-md" to="facebook.com">
+                                    <Youtube size={17} className=" text-white" />
+                                </Link>
+                            </div>
                         </div>
+
                     </div>
 
                 </div>
