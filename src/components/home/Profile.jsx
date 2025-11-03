@@ -1,5 +1,6 @@
 import profile from "../../assets/profile.jpg"
 import Container from "../ui/Container";
+import ProfileExperience from "./ProfileExperience";
 
 export default function Profile() {
     const skills = [
@@ -58,41 +59,11 @@ export default function Profile() {
 
                     <div className="lg:w-1/2 pr-0 lg:pr-12 relative text-right">
 
-                        <div className="mb-4 relative pl-10">
+                        <ProfileExperience heading="2010 - 2014 ABC Company" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
-                            <div className="flex justify-end space-x-2">
-                                <h3 className="text-xl font-semibold mb-2">2010 – 2014 ABC Company</h3>
-                                <div className="border-white border-2 w-5 rounded-full h-5 flex justify-center items-center">
-                                    <div className="h-2 w-2 bg-white rounded-full"></div>
-                                </div>
-                            </div>
+                        <ProfileExperience heading="2014 - 2016 X Software Company" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
-                            <p className="text-gray-300 text-sm mt-2 pr-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        </div>
-
-                        <div className="mb-4 relative pl-10">
-
-                            <div className="flex justify-end space-x-2">
-                                <h3 className="text-xl font-semibold mb-2">2014 - 2016 X Software Compan</h3>
-                                <div className="border-white border-2 w-5 rounded-full h-5 flex justify-center items-center">
-                                    <div className="h-2 w-2 bg-white rounded-full"></div>
-                                </div>
-                            </div>
-
-                            <p className="text-gray-300 text-sm mt-2 pr-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        </div>
-
-                        <div className="mb-4 relative pl-10">
-
-                            <div className="flex justify-end space-x-2">
-                                <h3 className="text-xl font-semibold mb-2">2017 - Now Freelancer</h3>
-                                <div className="border-white border-2 w-5 rounded-full h-5 flex justify-center items-center">
-                                    <div className="h-2 w-2 bg-white rounded-full"></div>
-                                </div>
-                            </div>
-
-                            <p className="text-gray-300 text-sm mt-2 pr-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                        </div>
+                        <ProfileExperience heading="2017 - Now Freelance" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
                     </div>
 
                     <div className="lg:w-1/2 pt-8 lg:pt-0 lg:pl-12 border-t-2 lg:border-t-0 lg:border-l-2 border-white">
