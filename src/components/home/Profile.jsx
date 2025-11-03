@@ -10,7 +10,8 @@ export default function Profile() {
     ];
 
     return (
-        <section className="bg-[#2b1ec2] poppins text-white py-40">
+        <section className="bg-[#2b1ec2] poppins text-white py-40 relative">
+            <div className="h-50 w-[1px] bg-gray-300 absolute left-[50%] top-[-16%]"></div>
             <Container>
                 <div className="flex justify-center items-center">
 

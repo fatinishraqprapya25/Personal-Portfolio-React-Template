@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <main
                 style={{ backgroundImage: `url(${bgImage}) ` }}
-                className="relative bg-cover bg-center md:min-h-screen home-hero pt-2"
+                className="relative bg-cover bg-center md:min-h-screen home-hero pt-2 pb-20"
             >
 
                 <div className="absolute inset-0 bg-black opacity-50 md:min-h-screen"></div>
