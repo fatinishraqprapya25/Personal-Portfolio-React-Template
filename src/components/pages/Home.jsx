@@ -3,6 +3,7 @@ import bgImage from "../../assets/hero-bg.jpeg"
 import Header from "../header";
 import Container from "../ui/Container";
 import Profile from "../home/Profile";
+import Portfolio from "../home/Portfolio";
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
             </main>
 
             <Profile />
+            <Portfolio />
         </>
     );
 }

@@ -13,8 +13,8 @@ export default function Profile() {
     ];
 
     return (
-        <section className="bg-[#2b1ec2] poppins text-white md:py-40 py-10 relative">
-            <div className="h-50 w-[1px] bg-gray-300 hidden absolute left-[50%] top-[-16%] md:block"></div>
+        <section className="bg-[#2b1ec2] poppins text-white md:py-40 pt-10 relative">
+            <div className="h-50 w-[1px] bg-gray-300 hidden absolute left-[50%] top-[-12%] md:block"></div>
             <Container>
                 <div className="md:flex justify-center items-center">
 
@@ -72,7 +72,7 @@ export default function Profile() {
                     <div className="md:w-1/2 pt-8 lg:pt-0 md:pl-10 border-t-2 md:border-t-0 md:border-l-2 border-white lg:py-20 flex items-center">
 
                         <div>
-                            <h2 className="text-3xl font-semibold mb-3 mt-0">
+                            <h2 className="text-3xl font-semibold mb-3 md:mb-0 mt-0">
                                 <span className="mr-2">☐</span>My Work Experience
                             </h2>
                             <p className="text-gray-300 text-sm mt-0 pr-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
