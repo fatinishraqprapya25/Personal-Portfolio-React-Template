@@ -7,6 +7,7 @@ import Portfolio from "../home/Portfolio";
 import Services from "../home/Services";
 import Blogs from "../home/Blogs";
 import Contact from "../home/Contact";
+import Footer from "../home/Footer";
 
 export default function Home() {
     return (
@@ -31,7 +32,8 @@ export default function Home() {
             <Portfolio />
             <Services />
             <Blogs />
-            <Contact/>
+            <Contact />
+            <Footer />
         </>
     );
 }
